@@ -32,7 +32,7 @@
 #include<execution>
 #include<numeric>
 using std::cout;
-
+#define PI 3.14159265358979323846
 double fungf(double x) {
 	return std::exp(x) + std::cos(PI * x) + x - 2;
 }
