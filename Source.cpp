@@ -22,7 +22,7 @@ int main() {
 	double tol;
 	std::cin >> tol;
 	double x1;
-	double xstar = 0;
+	double xstar = 0.0;
 	cout << '\n';
 	cout << "metodos newton\n";
 	do {
